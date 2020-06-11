@@ -79,14 +79,14 @@
 
 
 
-<meta name="description" content="试验一下Markdown语言，这是一种通过简单标记，使字体具有一些格式的语言。这真的是一个庞大的工程，Markdown语法公认简洁，但是都试一遍也要花些时间。而且如果追求美观，可能还需要少量的HTML语言补充一下。此外，还有Typora+PicGo+SM.MS图床的使用。 我编写Markdown语言有两个编辑器，一个是Typora，另一个是VS Code。前者独特之处在于实时预览，编好一行就可以查">
+<meta name="description" content="试验一下Markdown语言，这是一种通过简单标记，使字体具有一些格式的语言。这真的是一个庞大的工程，Markdown语法公认简洁，但是都试一遍也要花些时间。而且如果追求美观，可能还需要少量的HTML语言补充一下。此外，还有Typora+PicGo+SM.MS图床的使用。">
 <meta property="og:type" content="article">
 <meta property="og:title" content="初试Markdown语法">
 <meta property="og:url" content="http://yoursite.com/2020/06/10/TryMarkdown/index.html">
 <meta property="og:site_name" content="Harry的小屋">
-<meta property="og:description" content="试验一下Markdown语言，这是一种通过简单标记，使字体具有一些格式的语言。这真的是一个庞大的工程，Markdown语法公认简洁，但是都试一遍也要花些时间。而且如果追求美观，可能还需要少量的HTML语言补充一下。此外，还有Typora+PicGo+SM.MS图床的使用。 我编写Markdown语言有两个编辑器，一个是Typora，另一个是VS Code。前者独特之处在于实时预览，编好一行就可以查">
+<meta property="og:description" content="试验一下Markdown语言，这是一种通过简单标记，使字体具有一些格式的语言。这真的是一个庞大的工程，Markdown语法公认简洁，但是都试一遍也要花些时间。而且如果追求美观，可能还需要少量的HTML语言补充一下。此外，还有Typora+PicGo+SM.MS图床的使用。">
 <meta property="article:published_time" content="2020-06-10T13:56:38.000Z">
-<meta property="article:modified_time" content="2020-06-10T16:54:39.168Z">
+<meta property="article:modified_time" content="2020-06-11T05:13:38.763Z">
 <meta property="article:author" content="HarryT">
 <meta property="article:tag" content="learn">
 <meta name="twitter:card" content="summary">
@@ -288,7 +288,7 @@
               
                 <span class="post-meta-item-text">更新于&#58;</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2020-06-11T00:54:39+08:00">
+              <time title="更新于" itemprop="dateModified" datetime="2020-06-11T13:13:38+08:00">
                 2020-06-11
               </time>
             
@@ -323,6 +323,7 @@
 
       
         <p>试验一下Markdown语言，这是一种通过简单标记，使字体具有一些格式的语言。这真的是一个庞大的工程，Markdown语法公认简洁，但是都试一遍也要花些时间。而且如果追求美观，可能还需要少量的HTML语言补充一下。此外，还有Typora+PicGo+SM.MS图床的使用。</p>
+<a id="more"></a>
 <p>我编写Markdown语言有两个编辑器，一个是<strong>Typora</strong>，另一个是<strong>VS Code</strong>。前者独特之处在于实时预览，编好一行就可以查看效果；后者则是简洁的各式语言通用编辑器，添加相应插件后可以分栏，一栏是正在编写的Markdown语言，另一栏是效果展示。可以都试一遍，选择自己喜欢的即可。<br>小提示：</p>
 <ol>
 <li>Typora的实时预览有小概率发生格式问题。</li>
@@ -345,11 +346,23 @@
 </li>
 <li><p>字号为4（这个字号与大小成正比，自行试验上下限吧）</p>
 </li>
-<li><p>字体是英文的Kristen ITC（极为萌向的字体，但仅支持拉丁字母）</p>
+<li><p>字体是英文的Kristen ITC（Win10自带的萌系字体，但仅支持拉丁字母）</p>
 </li>
 </ul>
-<p>代码是<code>&lt;font color = #F0F8FF size=4 face=&quot;Kristen ITC&quot;&gt;I am written in HTML语言です！&lt;/font&gt;</code>（我相信至少单词都是能看懂的）</p>
-<h3 id="3-超链接"><a href="#3-超链接" class="headerlink" title="3.超链接"></a>3.超链接</h3><p>待续…</p>
+<p>代码是</p>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">markdown <span class="tag">&lt;<span class="name">font</span> <span class="attr">color</span> = <span class="string">#F0F8FF</span> <span class="attr">size</span>=<span class="string">4</span> <span class="attr">face</span>=<span class="string">"Kristen ITC"</span>&gt;</span>I am written in HTML语言です！<span class="tag">&lt;/<span class="name">font</span>&gt;</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="3-超链接"><a href="#3-超链接" class="headerlink" title="3.超链接"></a>3.超链接</h3><p>Markdown有两种形式的链接：行内式、参考式。此外也有脚注。</p>
+<p>我是<a href="harriaxt.github.io" title="可以来Harry的小屋看看吗？">行内式</a> 各式网站常用的超链接法。</p>
+<p><code>我是[行内式](harriaxt.github.io &quot;可以来Harry的小屋看看吗？&quot;)</code></p>
+<p>我是<a href="harriaxt.github.io" title="可以来Harry的小屋看看吗？">参考式</a> 这种格式常见于学术论文的参考文献部分，即尾注。</p>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">我是[<span class="string">参考式</span>][<span class="symbol">1</span>]</span><br><span class="line"></span><br><span class="line">[<span class="symbol">1</span>]:<span class="link">harriaxt.github.io	"可以来Harry的小屋看看吗？"</span></span><br></pre></td></tr></table></figure>
+
+<p>我是<a href="可以来Harry的小屋看看吗？harriaxt.github.io">^脚注</a></p>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">我是[^脚注]</span><br><span class="line">...</span><br><span class="line">[<span class="symbol">^脚注</span>]: <span class="link">harriaxt.github.io "可以来Harry的小屋看看吗？"</span></span><br></pre></td></tr></table></figure>
+
+<p>三种方法中代码最后的“…”是可选项，会在鼠标指向时显示注释。</p>
+<p>我是自动链接 <a href="http://harriaxt.github.io" target="_blank" rel="noopener">http://harriaxt.github.io</a> </p>
 
       
     </div>
@@ -515,7 +528,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-标题"><span class="nav-number">1.</span> <span class="nav-text">1.标题</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#我是一级标题！"><span class="nav-number"></span> <span class="nav-text">我是一级标题！</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#我是二级标题！"><span class="nav-number"></span> <span class="nav-text">我是二级标题！</span></a><ol class="nav-child"><li class="nav-item nav-level-6"><a class="nav-link" href="#我是六级标题！"><span class="nav-number">0.0.0.1.</span> <span class="nav-text">我是六级标题！</span></a></li></ol></li></ol></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-字体"><span class="nav-number">1.</span> <span class="nav-text">2.字体</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-超链接"><span class="nav-number">2.</span> <span class="nav-text">3.超链接</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-标题"><span class="nav-text">1.标题</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#我是一级标题！"><span class="nav-text">我是一级标题！</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#我是二级标题！"><span class="nav-text">我是二级标题！</span></a><ol class="nav-child"><li class="nav-item nav-level-6"><a class="nav-link" href="#我是六级标题！"><span class="nav-text">我是六级标题！</span></a></li></ol></li></ol></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-字体"><span class="nav-text">2.字体</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-超链接"><span class="nav-text">3.超链接</span></a></li></ol></div>
             
 
           </div>
