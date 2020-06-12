@@ -87,7 +87,7 @@
 <meta property="og:description" content="试验一下Markdown语言，这是一种通过简单标记，使字体具有一些格式的语言。这真的是一个庞大的工程，Markdown语法公认简洁，但是都试一遍也要花些时间。而且如果追求美观，可能还需要少量的HTML语言补充一下。此外，还有Typora+PicGo+SM.MS图床的使用。&lt; !–more–&gt;我编写Markdown语言有两个编辑器，一个是Typora，另一个是VS Code。前者独特之处">
 <meta property="og:image" content="https://i.loli.net/2020/06/12/dVZGOAM1IB4lShy.jpg">
 <meta property="article:published_time" content="2020-06-10T13:56:38.000Z">
-<meta property="article:modified_time" content="2020-06-12T10:24:29.897Z">
+<meta property="article:modified_time" content="2020-06-12T11:45:44.502Z">
 <meta property="article:author" content="HarryT">
 <meta property="article:tag" content="Learn">
 <meta name="twitter:card" content="summary">
@@ -290,7 +290,7 @@
               
                 <span class="post-meta-item-text">更新于&#58;</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2020-06-12T18:24:29+08:00">
+              <time title="更新于" itemprop="dateModified" datetime="2020-06-12T19:45:44+08:00">
                 2020-06-12
               </time>
             
@@ -334,7 +334,7 @@
 <h6 id="我是六级标题！"><a href="#我是六级标题！" class="headerlink" title="我是六级标题！"></a>我是六级标题！</h6><p><code>###### 我是六级标题！</code></p>
 <p>在Markdown中共有六级标题，依次缩小。</p>
 <hr>
-<p>上面是单独的分割线，单独占一行，代码为<code>---</code>或<code>***</code>。在符号间随意插入空格也可。</p>
+<p>上面是单独的<strong>分割线</strong>，单独占一行，代码为<code>---</code>或<code>***</code>。在符号间随意插入空格也可。</p>
 <h3 id="2-字体"><a href="#2-字体" class="headerlink" title="2.字体"></a>2.字体</h3><p><em>我是斜体Italic！</em><br><code>*我是斜体Italic*</code></p>
 <p><strong>我是加粗Bold!</strong><br><code>**我是加粗Bold**</code></p>
 <p><strong><em>我是加粗斜体！</em></strong></p>
@@ -352,9 +352,9 @@
 </li>
 </ul>
 <p>代码是</p>
-<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">markdown <span class="tag">&lt;<span class="name">font</span> <span class="attr">color</span> = <span class="string">#F0F8FF</span> <span class="attr">size</span>=<span class="string">4</span> <span class="attr">face</span>=<span class="string">"Kristen ITC"</span>&gt;</span>I am written in HTML语言です！<span class="tag">&lt;/<span class="name">font</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">font</span> <span class="attr">color</span> = <span class="string">#F0F8FF</span> <span class="attr">size</span>=<span class="string">4</span> <span class="attr">face</span>=<span class="string">"Kristen ITC"</span>&gt;</span>I am written in HTML语言です！<span class="tag">&lt;/<span class="name">font</span>&gt;</span></span><br></pre></td></tr></table></figure>
 
-<h3 id="3-超链接"><a href="#3-超链接" class="headerlink" title="3.超链接"></a>3.超链接</h3><p>Markdown有两种形式的链接：行内式、参考式。此外也有脚注。</p>
+<h3 id="3-超链接"><a href="#3-超链接" class="headerlink" title="3.超链接"></a>3.超链接</h3><p>Markdown有两种形式的链接：<strong>行内式</strong>、<strong>参考式</strong>。此外也有<strong>脚注</strong>。</p>
 <p>我是<a href="https://harriaxt.github.io" target="_blank" rel="noopener" title="可以来Harry的小屋看看吗？">行内式</a> 各式网站常用的超链接法。</p>
 <p><code>我是[行内式](https://harriaxt.github.io &quot;可以来Harry的小屋看看吗？&quot;)</code></p>
 <p>我是<a href="https://harriaxt.github.io" target="_blank" rel="noopener" title="可以来Harry的小屋看看吗？">参考式</a> 这种格式常见于学术论文的参考文献部分，即尾注。</p>
@@ -364,10 +364,18 @@
 <figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">我是[^1]</span><br><span class="line"></span><br><span class="line">[<span class="symbol">^1</span>]: <span class="link">https://harriaxt.github.io "可以来Harry的小屋看看吗？"</span></span><br></pre></td></tr></table></figure>
 
 <p>三种方法中代码最后的“…”是可选项，会在鼠标指向时显示注释。</p>
-<p>我是自动链接 <a href="https://harriaxt.github.io" target="_blank" rel="noopener">https://harriaxt.github.io</a> 电子邮件也可以<a href="mailto:&#97;&#x64;&#x64;&#x72;&#x65;&#x73;&#115;&#x40;&#101;&#120;&#97;&#109;&#x70;&#x6c;&#101;&#46;&#99;&#x6f;&#x6d;">&#97;&#x64;&#x64;&#x72;&#x65;&#x73;&#115;&#x40;&#101;&#120;&#97;&#109;&#x70;&#x6c;&#101;&#46;&#99;&#x6f;&#x6d;</a></p>
-<p><img src="https://i.loli.net/2020/06/12/dVZGOAM1IB4lShy.jpg" alt="Cute Example"></p>
-<p><code>![Cute Example](https://i.loli.net/2020/06/12/dVZGOAM1IB4lShy.jpg)</code></p>
-<p>（画师:茶々ごま，仅用于学习与研究用途，侵权即删…）</p>
+<p>我是自动链接 <a href="https://harriaxt.github.io" target="_blank" rel="noopener">https://harriaxt.github.io</a> 电子邮件也可以<a href="mailto:&#x61;&#100;&#100;&#x72;&#101;&#115;&#115;&#64;&#101;&#x78;&#97;&#x6d;&#112;&#x6c;&#101;&#x2e;&#x63;&#x6f;&#x6d;">&#x61;&#100;&#100;&#x72;&#101;&#115;&#115;&#64;&#101;&#x78;&#97;&#x6d;&#112;&#x6c;&#101;&#x2e;&#x63;&#x6f;&#x6d;</a></p>
+<p>接下来是图片的超链接：</p>
+<p><img src="https://i.loli.net/2020/06/12/dVZGOAM1IB4lShy.jpg" alt=""></p>
+<p>（画师:茶々ごま。谢谢，有被萌到！仅用于个人学习与研究用途，侵权即删…）</p>
+<p>代码举例：<code>![Cute Example](https://i.loli.net/2020/06/12/dVZGOAM1IB4lShy.jpg)</code><br>其中<code>i.loli.net</code>是SM.MS图床的链接地址，我将在最后介绍使用方法。</p>
+<p>当然，图片也支持这两种形式的链接。</p>
+<h3 id="4-注释、引用与代码块"><a href="#4-注释、引用与代码块" class="headerlink" title="4.注释、引用与代码块"></a>4.注释、引用与代码块</h3><p>*我不是斜体*</p>
+<p>你会注意到，虽然上面所显示的格式完全正确，但没有被转义为<em>我不是斜体</em>。因为代码是<code>\*我不是斜体*</code>，<code>\</code>就是Markdown的<strong>转义字符</strong>， 后面的文字被解析为纯文本格式，仅按照原样显示，也即<strong>注释</strong>。</p>
+<blockquote>
+<p>智者见于未萌，愚者暗于成事。——商鞅《商君书 · 更法》</p>
+</blockquote>
+<p>如果常看知乎，应该会一眼就认出这是<strong>引用</strong>。</p>
 
       
     </div>
@@ -533,7 +541,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-标题与分割线"><span class="nav-text">1.标题与分割线</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#我是一级标题！"><span class="nav-text">我是一级标题！</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#我是二级标题！"><span class="nav-text">我是二级标题！</span></a><ol class="nav-child"><li class="nav-item nav-level-6"><a class="nav-link" href="#我是六级标题！"><span class="nav-text">我是六级标题！</span></a></li></ol></li></ol></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-字体"><span class="nav-text">2.字体</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-超链接"><span class="nav-text">3.超链接</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-标题与分割线"><span class="nav-text">1.标题与分割线</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#我是一级标题！"><span class="nav-text">我是一级标题！</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#我是二级标题！"><span class="nav-text">我是二级标题！</span></a><ol class="nav-child"><li class="nav-item nav-level-6"><a class="nav-link" href="#我是六级标题！"><span class="nav-text">我是六级标题！</span></a></li></ol></li></ol></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-字体"><span class="nav-text">2.字体</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-超链接"><span class="nav-text">3.超链接</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#4-注释、引用与代码块"><span class="nav-text">4.注释、引用与代码块</span></a></li></ol></div>
             
 
           </div>
