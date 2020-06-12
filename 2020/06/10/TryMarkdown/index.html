@@ -86,8 +86,9 @@
 <meta property="og:site_name" content="Harry的小屋">
 <meta property="og:description" content="试验一下Markdown语言，这是一种通过简单标记，使字体具有一些格式的语言。这真的是一个庞大的工程，Markdown语法公认简洁，但是都试一遍也要花些时间。而且如果追求美观，可能还需要少量的HTML语言补充一下。此外，还有Typora+PicGo+SM.MS图床的使用。">
 <meta property="og:image" content="https://i.loli.net/2020/06/12/dVZGOAM1IB4lShy.jpg">
+<meta property="og:image" content="https://i.loli.net/2020/06/12/HdAO6PWtrxwL5Q3.png">
 <meta property="article:published_time" content="2020-06-10T13:56:38.000Z">
-<meta property="article:modified_time" content="2020-06-12T14:01:12.057Z">
+<meta property="article:modified_time" content="2020-06-12T15:56:23.828Z">
 <meta property="article:author" content="HarryT">
 <meta property="article:tag" content="Learn">
 <meta name="twitter:card" content="summary">
@@ -290,7 +291,7 @@
               
                 <span class="post-meta-item-text">更新于&#58;</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2020-06-12T22:01:12+08:00">
+              <time title="更新于" itemprop="dateModified" datetime="2020-06-12T23:56:23+08:00">
                 2020-06-12
               </time>
             
@@ -326,6 +327,8 @@
       
         <p>试验一下Markdown语言，这是一种通过简单标记，使字体具有一些格式的语言。这真的是一个庞大的工程，Markdown语法公认简洁，但是都试一遍也要花些时间。而且如果追求美观，可能还需要少量的HTML语言补充一下。此外，还有Typora+PicGo+SM.MS图床的使用。</p>
 <a id="more"></a>
+
+<p>实际上Markdown的语法极为简洁，并无如此丰富。本教程还有一些GitHub Flavored Markdown (GFM)语言的用法，这些用法在各式编辑器上通用。此外，如果对网页表现有要求可以去学HTML，如果对科学公式等精细表达有要求可以去学LATEX。</p>
 <p>我编写Markdown语言有两个编辑器，一个是<strong>Typora</strong>，另一个是<strong>VS Code</strong>。前者独特之处在于实时预览，编好一行就可以查看效果；后者则是简洁的各式语言通用编辑器，添加相应插件后可以分栏，一栏是正在编写的Markdown语言，另一栏是效果展示。可以都试一遍，选择自己喜欢的即可。<br>小提示：</p>
 <ol>
 <li>Typora的实时预览有小概率发生格式问题。</li>
@@ -339,10 +342,10 @@
 <p>上面是单独的<strong>分割线</strong>，单独占一行，代码为<code>---</code>或<code>***</code>。在符号间随意插入空格也可。</p>
 <h3 id="2-字体"><a href="#2-字体" class="headerlink" title="2.字体"></a>2.字体</h3><p><em>我是斜体Italic！</em><br><code>*我是斜体Italic*</code></p>
 <p><strong>我是加粗Bold!</strong><br><code>**我是加粗Bold**</code></p>
-<p><strong><em>我是加粗斜体！</em></strong></p>
-<p><code>***我是加粗斜体！***</code></p>
-<p><del>我是删除线！</del></p>
-<p><code>~~我是删除线~~</code></p>
+<p><strong><em>我是加粗斜体！</em></strong><br><code>***我是加粗斜体！***</code></p>
+<p><del>我是删除线！</del><br><code>~~我是删除线~~</code></p>
+<p>Emoji表情符号:blush:</p>
+<p><code>:blush:</code>即可，表情对应的代码请查询<a href="https://www.webfx.com/tools/emoji-cheat-sheet/" target="_blank" rel="noopener" title="EMOJI CHEAT SHEET">这里</a>(境外网站注意)</p>
 <p><del>一些超纲的内容…但是很好用！</del></p>
 <p><font color = #F0F8FF size=4 face="Kristen ITC">I am written in HTML语言です！</font></p>
 <ul>
@@ -357,8 +360,7 @@
 <figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">font</span> <span class="attr">color</span> = <span class="string">#F0F8FF</span> <span class="attr">size</span>=<span class="string">4</span> <span class="attr">face</span>=<span class="string">"Kristen ITC"</span>&gt;</span>I am written in HTML语言です！<span class="tag">&lt;/<span class="name">font</span>&gt;</span></span><br></pre></td></tr></table></figure>
 
 <h3 id="3-超链接"><a href="#3-超链接" class="headerlink" title="3.超链接"></a>3.超链接</h3><p>Markdown有两种形式的链接：<strong>行内式</strong>、<strong>参考式</strong>。此外也有<strong>脚注</strong>。</p>
-<p>我是<a href="https://harriaxt.github.io" target="_blank" rel="noopener" title="可以来Harry的小屋看看吗？">行内式</a> 各式网站常用的超链接法。</p>
-<p><code>我是[行内式](https://harriaxt.github.io &quot;可以来Harry的小屋看看吗？&quot;)</code></p>
+<p>我是<a href="https://harriaxt.github.io" target="_blank" rel="noopener" title="可以来Harry的小屋看看吗？">行内式</a> 各式网站常用的超链接法。<br><code>我是[行内式](https://harriaxt.github.io &quot;可以来Harry的小屋看看吗？&quot;)</code></p>
 <p>我是<a href="https://harriaxt.github.io" target="_blank" rel="noopener" title="可以来Harry的小屋看看吗？">参考式</a> 这种格式常见于学术论文的参考文献部分，即尾注。</p>
 <figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">我是[<span class="string">参考式</span>][<span class="symbol">1</span>]</span><br><span class="line"></span><br><span class="line">[<span class="symbol">1</span>]:<span class="link">https://harriaxt.github.io	"可以来Harry的小屋看看吗？"</span></span><br></pre></td></tr></table></figure>
 
@@ -366,14 +368,14 @@
 <figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">我是[^1]</span><br><span class="line"></span><br><span class="line">[<span class="symbol">^1</span>]: <span class="link">https://harriaxt.github.io "可以来Harry的小屋看看吗？"</span></span><br></pre></td></tr></table></figure>
 
 <p>三种方法中代码最后的“…”是可选项，会在鼠标指向时显示注释。</p>
-<p>我是自动链接 <a href="https://harriaxt.github.io" target="_blank" rel="noopener">https://harriaxt.github.io</a> 电子邮件也可以<a href="mailto:&#x61;&#x64;&#100;&#x72;&#101;&#x73;&#115;&#64;&#x65;&#120;&#x61;&#109;&#112;&#x6c;&#101;&#x2e;&#99;&#x6f;&#109;">&#x61;&#x64;&#100;&#x72;&#101;&#x73;&#115;&#64;&#x65;&#120;&#x61;&#109;&#112;&#x6c;&#101;&#x2e;&#99;&#x6f;&#109;</a></p>
+<p>我是自动链接 <a href="https://harriaxt.github.io" target="_blank" rel="noopener">https://harriaxt.github.io</a> 电子邮件也可以<a href="mailto:&#x61;&#100;&#x64;&#x72;&#x65;&#115;&#115;&#x40;&#101;&#120;&#x61;&#x6d;&#x70;&#x6c;&#101;&#x2e;&#x63;&#111;&#109;">&#x61;&#100;&#x64;&#x72;&#x65;&#115;&#115;&#x40;&#101;&#120;&#x61;&#x6d;&#x70;&#x6c;&#101;&#x2e;&#x63;&#111;&#109;</a></p>
 <p>接下来是图片的超链接：</p>
 <p><img src="https://i.loli.net/2020/06/12/dVZGOAM1IB4lShy.jpg" alt="Cute Example" title="携帯恋話"></p>
 <p>（画师:茶々ごま。谢谢，有被萌到！仅用于个人学习与研究用途，侵权即删…）</p>
 <p>代码举例：<code>![Cute Example](https://i.loli.net/2020/06/12/dVZGOAM1IB4lShy.jpg &quot;携帯恋話&quot;)</code></p>
 <ol>
 <li>[…]是图片说明（在图片无法正常显示时对其的说明），”…”是图片标题。</li>
-<li>其中<code>i.loli.net</code>是SM.MS图床的链接地址，我将在最后介绍其使用方法。</li>
+<li>其中<code>i.loli.net</code>是SM.MS图床的链接地址，我将在最后介绍其<a href="#7-2020年6月新版Typora-PicGo-SM-MS图床教程">使用方法</a>。</li>
 </ol>
 <p>当然，图片也支持这两种形式的链接。</p>
 <h3 id="4-注释、引用与代码块"><a href="#4-注释、引用与代码块" class="headerlink" title="4.注释、引用与代码块"></a>4.注释、引用与代码块</h3><h4 id="4-1-注释"><a href="#4-1-注释" class="headerlink" title="4.1.注释"></a>4.1.注释</h4><p>*我不是斜体*</p>
@@ -389,9 +391,83 @@
 <p>行外代码块：</p>
 <figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line">main( )</span><br><span class="line">&#123;</span><br><span class="line">        <span class="built_in">printf</span>(<span class="string">"hello, world\n"</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
-<p>原代码如下：首行只有```和可选的语言。正确的语言可使代码标色易看。末行同以反引号结束。</p>
-<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="code">```c</span></span><br><span class="line"><span class="code">#include &lt;stdio.h&gt;</span></span><br><span class="line"><span class="code">main( )</span></span><br><span class="line"><span class="code">&#123;</span></span><br><span class="line"><span class="code">printf("hello, world\n");</span></span><br><span class="line"><span class="code">&#125;</span></span><br><span class="line"><span class="code">```</span></span><br></pre></td></tr></table></figure>
-<h3 id="5-列表"><a href="#5-列表" class="headerlink" title="5.列表"></a>5.列表</h3><h3 id="6-换行、空行与段落"><a href="#6-换行、空行与段落" class="headerlink" title="6.换行、空行与段落"></a>6.换行、空行与段落</h3><h4 id="6-1-换行"><a href="#6-1-换行" class="headerlink" title="6.1.换行"></a>6.1.换行</h4><p>先来明确基础概念：在Word中有两种换行符：</p>
+<p>原代码如下：首行应为≥3的反引号`和可选的语言。正确的语言可代码标色。末行以相同反引号结束。</p>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">c</span><br><span class="line"><span class="code">    #include &lt;stdio.h&gt;</span></span><br><span class="line"><span class="code">    main( )</span></span><br><span class="line"><span class="code">    &#123;</span></span><br><span class="line"><span class="code">    printf("hello, world\n");</span></span><br><span class="line"><span class="code">    &#125;</span></span><br></pre></td></tr></table></figure>
+
+<h3 id="5-列表与表格"><a href="#5-列表与表格" class="headerlink" title="5.列表与表格"></a>5.列表与表格</h3><h4 id="5-1-无序列表"><a href="#5-1-无序列表" class="headerlink" title="5.1.无序列表"></a>5.1.无序列表</h4><p>使用<code>*</code>，<code>+</code>，<code>-</code> 表示无序列表。举例说明：</p>
+<ul>
+<li>化学键<ul>
+<li>共价键</li>
+</ul>
+</li>
+<li>分子间作用力<ul>
+<li>范德华力<ul>
+<li>色散力</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="bullet">+ </span>化学键</span><br><span class="line"><span class="bullet">  - </span>共价键</span><br><span class="line"><span class="bullet">+ </span>分子间作用力</span><br><span class="line"><span class="bullet">  + </span>范德华力</span><br><span class="line"><span class="bullet">    + </span>色散力</span><br></pre></td></tr></table></figure>
+
+<h4 id="5-2-有序列表"><a href="#5-2-有序列表" class="headerlink" title="5.2.有序列表"></a>5.2.有序列表</h4><p>使用数字和点表示有序列表。为保证渲染正确，两级之间请空出4个空格。<br>此外，如果随意标号，如3、5、7，Markdown将根据第一个数字自动排序为3、4、5。</p>
+<ol>
+<li>化学键<ol>
+<li>共价键</li>
+</ol>
+</li>
+<li>分子间作用力<ol>
+<li>范德华力<ol>
+<li>色散力</li>
+</ol>
+</li>
+</ol>
+</li>
+</ol>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="bullet">1. </span>化学键</span><br><span class="line"><span class="bullet">	1. </span>共价键</span><br><span class="line"><span class="bullet">2. </span>分子间作用力</span><br><span class="line"><span class="bullet">	1. </span>范德华力</span><br><span class="line"><span class="bullet">        1. </span>色散力</span><br></pre></td></tr></table></figure>
+
+<h4 id="5-3-绘制表格"><a href="#5-3-绘制表格" class="headerlink" title="5.3. 绘制表格"></a>5.3. 绘制表格</h4><p>绘制表格格式如下，<code>|</code> 控制分列，<code>-</code> 控制分行，<code>:</code> 控制对齐方式。</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">| Item   | Value | Qty   |</span><br><span class="line">| :------| :---: | :---: |</span><br><span class="line">| Apple  |   1   |  20   |</span><br><span class="line">| Banana |   2   |  10   |</span><br><span class="line">| Cherry |   3   |  5    |</span><br></pre></td></tr></table></figure>
+
+<table>
+<thead>
+<tr>
+<th align="left">Item</th>
+<th align="center">Value</th>
+<th align="center">Qty</th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="left">Apple</td>
+<td align="center">1</td>
+<td align="center">20</td>
+</tr>
+<tr>
+<td align="left">Banana</td>
+<td align="center">2</td>
+<td align="center">10</td>
+</tr>
+<tr>
+<td align="left">Cherry</td>
+<td align="center">3</td>
+<td align="center">5</td>
+</tr>
+</tbody></table>
+<h4 id="5-4-任务列表"><a href="#5-4-任务列表" class="headerlink" title="5.4.任务列表"></a>5.4.任务列表</h4><ul>
+<li><input checked="" disabled="" type="checkbox"> 化学键<ul>
+<li><input checked="" disabled="" type="checkbox"> 共价键</li>
+</ul>
+</li>
+<li><input disabled="" type="checkbox"> 分子间作用力<ul>
+<li><input checked="" disabled="" type="checkbox"> 范德华力</li>
+</ul>
+</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">- [x] 化学键</span><br><span class="line">    - [x] 共价键</span><br><span class="line">- [ ] 分子间作用力</span><br><span class="line">    - [x] 范德华力</span><br></pre></td></tr></table></figure>
+
+
+
+<h3 id="6-换行、空行与段落"><a href="#6-换行、空行与段落" class="headerlink" title="6.换行、空行与段落"></a>6.换行、空行与段落</h3><h4 id="6-1-换行"><a href="#6-1-换行" class="headerlink" title="6.1.换行"></a>6.1.换行</h4><p>先来明确基础概念：在Word中有两种换行符：</p>
 <ul>
 <li>“软回车”：手动换行符，它换行而不换段，用Shift+Enter打出。符号为↓。</li>
 <li>“硬回车”：段落标记，执行换段（当然也换行了），用Enter打出。符号为↲。</li>
@@ -400,7 +476,15 @@
 <p>可以打开Typora的“源代码模式”，或VS Code的代码编写栏练习。并尝试分析该部分哪些行中有空行。</p>
 <h4 id="6-2-空行与段落"><a href="#6-2-空行与段落" class="headerlink" title="6.2.空行与段落"></a>6.2.空行与段落</h4><p>一个 Markdown 段落是由一个或多个连续的文本行组成，它的前后要有一个以上的空行。<br>空行的定义是“显示上看起来像是空的”，便会被视为空行。<br>eg：若某一行只包含空格和制表符，则该行也会被视为空行。</p>
 <p>普通段落不可用空格或制表符来缩进。多于2个空格将被渲染为仅一个空格（当然，制表符Tab也是如此）；多于一个空行将被渲染为仅一个空行。</p>
-<h3 id="7-2020年6月新版Typora-PicGo-SM-MS图床教程"><a href="#7-2020年6月新版Typora-PicGo-SM-MS图床教程" class="headerlink" title="7.2020年6月新版Typora+PicGo+SM.MS图床教程"></a>7.2020年6月新版Typora+PicGo+SM.MS图床教程</h3>
+<h3 id="7-2020年6月Typora-PicGo-SM-MS图床教程（Windows适用）"><a href="#7-2020年6月Typora-PicGo-SM-MS图床教程（Windows适用）" class="headerlink" title="7.2020年6月Typora+PicGo+SM.MS图床教程（Windows适用）"></a>7.2020年6月Typora+PicGo+SM.MS图床教程（Windows适用）</h3><ol>
+<li>PicGo下载的为<a href="https://github.com/Molunerfinn/PicGo/releases/tag/v2.3.0-beta.0" target="_blank" rel="noopener">2.3.0-beta.0</a>版，新增smms-v2 的支持，不必再使用 smms-user插件了。找到PicGo-Setup-2.3.0-beta.0.exe，下载安装即可。</li>
+<li>SM.MS图床官网为<a href="https://sm.ms，右上角User=&gt;Register注册，Login登录。打开Dashboard，点选左下方的API" target="_blank" rel="noopener">https://sm.ms，右上角User=&gt;Register注册，Login登录。打开Dashboard，点选左下方的API</a> Token生成秘钥(Generate Secret Token)。复制秘钥，打开PicGo。在图床设置中找到SM.MS图床。粘贴秘钥，确定并设为默认图床。</li>
+<li>将需要的图片拖拽至图片上传页面。<img src="https://i.loli.net/2020/06/12/HdAO6PWtrxwL5Q3.png" alt="" title="PicGo"></li>
+<li>在相册里照片下方的文件型按钮复制Markdown格式即可。</li>
+<li>注意：前置需要Node.js，不过使用Hexo时已装过，不必担心。</li>
+<li>注意：上传至图床时照片总容量5GB，单张最大5MB。一次最多10张。</li>
+</ol>
+
       
     </div>
     
@@ -565,7 +649,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-标题与分割线"><span class="nav-text">1.标题与分割线</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#我是一级标题！"><span class="nav-text">我是一级标题！</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#我是二级标题！"><span class="nav-text">我是二级标题！</span></a><ol class="nav-child"><li class="nav-item nav-level-6"><a class="nav-link" href="#我是六级标题！"><span class="nav-text">我是六级标题！</span></a></li></ol></li></ol></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-字体"><span class="nav-text">2.字体</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-超链接"><span class="nav-text">3.超链接</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#4-注释、引用与代码块"><span class="nav-text">4.注释、引用与代码块</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#4-1-注释"><span class="nav-text">4.1.注释</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#4-2-引用"><span class="nav-text">4.2.引用</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#4-3-代码块"><span class="nav-text">4.3.代码块</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#5-列表"><span class="nav-text">5.列表</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#6-换行、空行与段落"><span class="nav-text">6.换行、空行与段落</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#6-1-换行"><span class="nav-text">6.1.换行</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#6-2-空行与段落"><span class="nav-text">6.2.空行与段落</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#7-2020年6月新版Typora-PicGo-SM-MS图床教程"><span class="nav-text">7.2020年6月新版Typora+PicGo+SM.MS图床教程</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-标题与分割线"><span class="nav-text">1.标题与分割线</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#我是一级标题！"><span class="nav-text">我是一级标题！</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#我是二级标题！"><span class="nav-text">我是二级标题！</span></a><ol class="nav-child"><li class="nav-item nav-level-6"><a class="nav-link" href="#我是六级标题！"><span class="nav-text">我是六级标题！</span></a></li></ol></li></ol></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-字体"><span class="nav-text">2.字体</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-超链接"><span class="nav-text">3.超链接</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#4-注释、引用与代码块"><span class="nav-text">4.注释、引用与代码块</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#4-1-注释"><span class="nav-text">4.1.注释</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#4-2-引用"><span class="nav-text">4.2.引用</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#4-3-代码块"><span class="nav-text">4.3.代码块</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#5-列表与表格"><span class="nav-text">5.列表与表格</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#5-1-无序列表"><span class="nav-text">5.1.无序列表</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#5-2-有序列表"><span class="nav-text">5.2.有序列表</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#5-3-绘制表格"><span class="nav-text">5.3. 绘制表格</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#5-4-任务列表"><span class="nav-text">5.4.任务列表</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#6-换行、空行与段落"><span class="nav-text">6.换行、空行与段落</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#6-1-换行"><span class="nav-text">6.1.换行</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#6-2-空行与段落"><span class="nav-text">6.2.空行与段落</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#7-2020年6月Typora-PicGo-SM-MS图床教程（Windows适用）"><span class="nav-text">7.2020年6月Typora+PicGo+SM.MS图床教程（Windows适用）</span></a></li></ol></div>
             
 
           </div>
