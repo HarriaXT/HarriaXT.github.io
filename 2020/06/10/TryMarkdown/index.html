@@ -88,7 +88,7 @@
 <meta property="og:image" content="https://i.loli.net/2020/06/12/dVZGOAM1IB4lShy.jpg">
 <meta property="og:image" content="https://i.loli.net/2020/06/12/HdAO6PWtrxwL5Q3.png">
 <meta property="article:published_time" content="2020-06-10T13:56:38.000Z">
-<meta property="article:modified_time" content="2020-07-10T14:10:04.030Z">
+<meta property="article:modified_time" content="2020-07-12T04:26:41.446Z">
 <meta property="article:author" content="HarryT">
 <meta property="article:tag" content="Learn">
 <meta name="twitter:card" content="summary">
@@ -291,8 +291,8 @@
               
                 <span class="post-meta-item-text">更新于&#58;</span>
               
-              <time title="更新于" itemprop="dateModified" datetime="2020-07-10T22:10:04+08:00">
-                2020-07-10
+              <time title="更新于" itemprop="dateModified" datetime="2020-07-12T12:26:41+08:00">
+                2020-07-12
               </time>
             
           </span>
@@ -333,12 +333,19 @@
 <li>Typora的实时预览有小概率发生格式问题。</li>
 <li>Typora中文版自带<strong>PicGo</strong>图床工具，而VS Code也可以下载插件使用PicGo上传图片。</li>
 </ol>
-<h3 id="1-标题与分割线"><a href="#1-标题与分割线" class="headerlink" title="1.标题与分割线"></a>1.标题与分割线</h3><h1 id="我是一级标题！"><a href="#我是一级标题！" class="headerlink" title="我是一级标题！"></a>我是一级标题！</h1><p><code># 我是一级标题</code></p>
+<h3 id="1-标题与分割线"><a href="#1-标题与分割线" class="headerlink" title="1.标题与分割线"></a>1.标题与分割线</h3><p>一种格式为：以标题前#的数量表示级数。</p>
+<h1 id="我是一级标题！"><a href="#我是一级标题！" class="headerlink" title="我是一级标题！"></a>我是一级标题！</h1><p><code># 我是一级标题</code></p>
 <h2 id="我是二级标题！"><a href="#我是二级标题！" class="headerlink" title="我是二级标题！"></a>我是二级标题！</h2><p><code>## 我是二级标题！</code></p>
 <h6 id="我是六级标题！"><a href="#我是六级标题！" class="headerlink" title="我是六级标题！"></a>我是六级标题！</h6><p><code>###### 我是六级标题！</code></p>
+<p>另一种格式为：标题下方为一行<code>=</code>是一级标题，一行<code>-</code>是二级标题。这种格式可以写多行标题。（注意使用<a href="#6换行空行与段落">软换行问题</a>）</p>
+<p>你是一级标题！<br>Me,too！<br>===</p>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">你是一级标题！  </span><br><span class="line">Me,too！</span><br><span class="line">===</span><br></pre></td></tr></table></figure>
+<p>你是二级标题！<br>Me,too！</p>
+<hr>
+<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">你是二级标题！  </span><br><span class="line">Me,too！</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
 <p>在Markdown中共有六级标题，依次缩小。</p>
 <hr>
-<p>上面是单独的<strong>分割线</strong>，单独占一行，代码为<code>---</code>或<code>***</code>。在符号间随意插入空格也可。</p>
+<p>上面是单独的<strong>分割线</strong>，单独占一行且上一行为空行。代码为<code>---</code>或<code>***</code>。在符号间随意插入空格也可。</p>
 <h3 id="2-文本格式化"><a href="#2-文本格式化" class="headerlink" title="2.文本格式化"></a>2.文本格式化</h3><p><em>我是斜体Italic！</em><br><code>*我是斜体Italic*</code></p>
 <p><strong>我是加粗Bold!</strong><br><code>**我是加粗Bold**</code></p>
 <p><strong><em>我是加粗斜体！</em></strong><br><code>***我是加粗斜体！***</code></p>
@@ -358,7 +365,7 @@
 <p>代码是</p>
 <figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">font</span> <span class="attr">color</span> = <span class="string">#66CCFF</span> <span class="attr">size</span>=<span class="string">4</span> <span class="attr">face</span>=<span class="string">"Kristen ITC"</span>&gt;</span>I am written in HTML+cssです！<span class="tag">&lt;/<span class="name">font</span>&gt;</span></span><br></pre></td></tr></table></figure>
 
-<h3 id="3-超链接"><a href="#3-超链接" class="headerlink" title="3.超链接"></a>3.超链接</h3><p>Markdown有两种形式的链接：<strong>行内式</strong>、<strong>参考式</strong>。此外也有<strong>脚注</strong>。</p>
+<h3 id="3-超链接-锚点"><a href="#3-超链接-锚点" class="headerlink" title="3.超链接 锚点"></a>3.超链接 锚点</h3><p>Markdown有两种形式的链接：<strong>行内式</strong>、<strong>参考式</strong>。此外也有<strong>脚注</strong>。</p>
 <p>我是<a href="https://harriaxt.github.io" target="_blank" rel="noopener" title="可以来Harry的小屋看看吗？">行内式</a> 各式网站常用的超链接法。<br><code>我是[行内式](https://harriaxt.github.io &quot;可以来Harry的小屋看看吗？&quot;)</code></p>
 <p>我是<a href="https://harriaxt.github.io" target="_blank" rel="noopener" title="可以来Harry的小屋看看吗？">参考式</a> 这种格式常见于学术论文的参考文献部分，即尾注。</p>
 <figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">我是[<span class="string">参考式</span>][<span class="symbol">1</span>]</span><br><span class="line"></span><br><span class="line">[<span class="symbol">1</span>]:<span class="link">https://harriaxt.github.io	"可以来Harry的小屋看看吗？"</span></span><br></pre></td></tr></table></figure>
@@ -367,7 +374,7 @@
 <figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">我是[^1]</span><br><span class="line"></span><br><span class="line">[<span class="symbol">^1</span>]: <span class="link">https://harriaxt.github.io "可以来Harry的小屋看看吗？"</span></span><br></pre></td></tr></table></figure>
 
 <p>三种方法中代码最后的“…”是可选项，会在鼠标指向时显示注释。</p>
-<p>我是自动链接 <a href="https://harriaxt.github.io" target="_blank" rel="noopener">https://harriaxt.github.io</a> 电子邮件也可以<a href="mailto:&#x61;&#x64;&#100;&#114;&#x65;&#115;&#x73;&#64;&#x65;&#x78;&#97;&#x6d;&#112;&#x6c;&#101;&#x2e;&#99;&#x6f;&#109;">&#x61;&#x64;&#100;&#114;&#x65;&#115;&#x73;&#64;&#x65;&#x78;&#97;&#x6d;&#112;&#x6c;&#101;&#x2e;&#99;&#x6f;&#109;</a></p>
+<p>我是自动链接 <a href="https://harriaxt.github.io" target="_blank" rel="noopener">https://harriaxt.github.io</a> 电子邮件也可以<a href="mailto:&#97;&#x64;&#100;&#114;&#101;&#115;&#x73;&#64;&#x65;&#x78;&#x61;&#109;&#112;&#108;&#x65;&#46;&#99;&#111;&#109;">&#97;&#x64;&#100;&#114;&#101;&#115;&#x73;&#64;&#x65;&#x78;&#x61;&#109;&#112;&#108;&#x65;&#46;&#99;&#111;&#109;</a></p>
 <p>接下来是图片的超链接：</p>
 <p><img src="https://i.loli.net/2020/06/12/dVZGOAM1IB4lShy.jpg" alt="Cute Example" title="携帯恋話"></p>
 <p>（画师:茶々ごま。谢谢，有被萌到！仅用于个人学习与研究用途，侵权即删…）</p>
@@ -377,6 +384,8 @@
 <li>其中<code>i.loli.net</code>是SM.MS图床的链接地址，我将在最后介绍其<a href="#7-2020年6月新版Typora-PicGo-SM-MS图床教程">使用方法</a>。</li>
 </ol>
 <p>当然，图片也支持这两种形式的链接。</p>
+<p>锚点是为了页面内跳转到特定位置而设计的，在Markdown中标题即锚点。<br>如：<code>[回到本节](#3.超链接-锚点)</code></p>
+<p>如果标题有空格，在锚点那里用<code>-</code>替代。</p>
 <h3 id="4-注释、引用与代码块"><a href="#4-注释、引用与代码块" class="headerlink" title="4.注释、引用与代码块"></a>4.注释、引用与代码块</h3><h4 id="4-1-注释"><a href="#4-1-注释" class="headerlink" title="4.1.注释"></a>4.1.注释</h4><p>*我不是斜体*</p>
 <p>你会注意到，虽然上面所显示的格式完全符合Markdown语法，但没有被转义为<em>我不是斜体</em>。因为代码是<code>\*我不是斜体*</code>，<code>\</code>就是Markdown的<strong>转义字符</strong>， 后面的文字被解析为纯文本格式，仅按照原样显示，也即<strong>注释</strong>。</p>
 <h4 id="4-2-引用"><a href="#4-2-引用" class="headerlink" title="4.2.引用"></a>4.2.引用</h4><blockquote>
@@ -652,7 +661,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-标题与分割线"><span class="nav-text">1.标题与分割线</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#我是一级标题！"><span class="nav-text">我是一级标题！</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#我是二级标题！"><span class="nav-text">我是二级标题！</span></a><ol class="nav-child"><li class="nav-item nav-level-6"><a class="nav-link" href="#我是六级标题！"><span class="nav-text">我是六级标题！</span></a></li></ol></li></ol></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-文本格式化"><span class="nav-text">2.文本格式化</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-超链接"><span class="nav-text">3.超链接</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#4-注释、引用与代码块"><span class="nav-text">4.注释、引用与代码块</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#4-1-注释"><span class="nav-text">4.1.注释</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#4-2-引用"><span class="nav-text">4.2.引用</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#4-3-代码块"><span class="nav-text">4.3.代码块</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#5-列表与表格"><span class="nav-text">5.列表与表格</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#5-1-无序列表"><span class="nav-text">5.1.无序列表</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#5-2-有序列表"><span class="nav-text">5.2.有序列表</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#5-3-绘制表格"><span class="nav-text">5.3. 绘制表格</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#5-4-任务列表"><span class="nav-text">5.4.任务列表</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#6-换行、空行与段落"><span class="nav-text">6.换行、空行与段落</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#6-1-换行"><span class="nav-text">6.1.换行</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#6-2-空行与段落"><span class="nav-text">6.2.空行与段落</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#7-2020年6月Typora-PicGo-SM-MS图床教程（Windows适用）"><span class="nav-text">7.2020年6月Typora+PicGo+SM.MS图床教程（Windows适用）</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-标题与分割线"><span class="nav-text">1.标题与分割线</span></a></li></ol></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#我是一级标题！"><span class="nav-text">我是一级标题！</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#我是二级标题！"><span class="nav-text">我是二级标题！</span></a><ol class="nav-child"><li class="nav-item nav-level-6"><a class="nav-link" href="#我是六级标题！"><span class="nav-text">我是六级标题！</span></a></li></ol></li></ol></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-文本格式化"><span class="nav-text">2.文本格式化</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-超链接-锚点"><span class="nav-text">3.超链接 锚点</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#4-注释、引用与代码块"><span class="nav-text">4.注释、引用与代码块</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#4-1-注释"><span class="nav-text">4.1.注释</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#4-2-引用"><span class="nav-text">4.2.引用</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#4-3-代码块"><span class="nav-text">4.3.代码块</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#5-列表与表格"><span class="nav-text">5.列表与表格</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#5-1-无序列表"><span class="nav-text">5.1.无序列表</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#5-2-有序列表"><span class="nav-text">5.2.有序列表</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#5-3-绘制表格"><span class="nav-text">5.3. 绘制表格</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#5-4-任务列表"><span class="nav-text">5.4.任务列表</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#6-换行、空行与段落"><span class="nav-text">6.换行、空行与段落</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#6-1-换行"><span class="nav-text">6.1.换行</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#6-2-空行与段落"><span class="nav-text">6.2.空行与段落</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#7-2020年6月Typora-PicGo-SM-MS图床教程（Windows适用）"><span class="nav-text">7.2020年6月Typora+PicGo+SM.MS图床教程（Windows适用）</span></a></li></ol></div>
             
 
           </div>
